@@ -7,4 +7,5 @@ def main(a,b):
     Returns:
         True if at least one of the numbers 'a' and 'b' is even, False otherwise
     """
-    return
+    return a%2==0 or b%2==0
+print(main(2,5))
