@@ -9,6 +9,6 @@ def main(a,b,c):
         True if b is between a and c, False otherwise
     """
     
-    return a < b and b < c
+    return a < b and b < c or c > b and b > a
 
 print(main(1,2,3))
