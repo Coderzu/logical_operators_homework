@@ -6,4 +6,6 @@ def main(a):
     Returns:
         True if a is five-digit number, False otherwise
     """
-    return
+    return a > 9999 and a < 100000
+
+print(main(12345))
